@@ -22,6 +22,7 @@ html {
 
 .text{
   background:-webkit-linear-gradient(45deg,#b48811,#daa520,#ebd197,#daa520,#b48811 55% );
-  -webkit-background-clip: text;
+  background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
