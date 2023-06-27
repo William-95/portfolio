@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --goldGradiant:-webkit-linear-gradient(45deg,#a2790d,#b48811,#daa520,#ebd197,#daa520,#b48811,#a2790d 80% );
+  ;
+  --primary: #daa520;
+  --secondary: #0d1762;
+
+  --mainTransition: all 0.3s linear;
+
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.text{
+  background:-webkit-linear-gradient(45deg,#b48811,#daa520,#ebd197,#daa520,#b48811 55% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
