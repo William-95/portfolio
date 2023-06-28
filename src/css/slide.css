@@ -1,0 +1,23 @@
+@import "../css/App.css";
+.carousel{
+    margin:0;
+    height: 50vh;
+    overflow:hidden;
+}
+
+
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+}
+
+/*desktop*/
+@media screen and (min-width: 900px) {
+    .carousel{
+        height: 70vh;
+        width: 50%;
+        border:2px solid var(--primary);
+        border-radius: 15%;
+        box-shadow: var(--lightShadow);
+        margin:0 auto;
+    }
+}
