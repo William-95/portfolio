@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
-import Slide from '../components/Slide'
+import Lenguage from '../components/Lenguage'
 
 
 export default function Home() {
   return (
     <>
   <Header/>
-  <Slide/>
+  <Lenguage/>
     </>
   )
 }

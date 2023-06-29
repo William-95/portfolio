@@ -13,7 +13,8 @@ html {
   ;
   --primary: #daa520;
   --secondary: #0d1762;
-
+  ---lightBlue:#1E4294;
+  
   --mainTransition: all 0.3s linear;
 
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);

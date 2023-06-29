@@ -22,14 +22,14 @@
   width: 100%;
 }
 
-.presentation {
+.textHeader {
   color: var(--primary);
-  width: 50%;
+  width: 60%;
   margin-left: 5%;
   margin-top: 10%;
 }
 
-.presentation h3{
+.textHeader h3{
     -webkit-animation: text-fall 3s 2.5s ease-in-out both;
     -moz-animation: text-fall 3s 2.5s ease-in-out both;
     -ms-animation: text-fall 3s 2.5s ease-in-out both;
@@ -48,7 +48,7 @@
     width: 150px;
     height: 150px;
   }
-  .presentation {
+  .textHeader {
     font-size: 1.6em;
     margin-left: 10%;
   }
@@ -63,9 +63,9 @@
     width: 250px;
     height: 250px;
   }
-  .presentation {
+  .textHeader {
     font-size: 2em;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-left: 15%;
   }
 }

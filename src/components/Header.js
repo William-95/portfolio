@@ -15,7 +15,7 @@ export default function Header() {
             <img src={myImg} alt=''/>
         </div>
 
-        <div className="presentation">
+        <div className="textHeader">
             <h1 className="text">
                 Ciao,
             </h1>

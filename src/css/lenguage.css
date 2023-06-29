@@ -1,0 +1,207 @@
+@import "../css/App.css";
+.carouselContainer {
+  margin: 40% 0 15% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--lightBlue);
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  perspective: 450px;
+}
+.right {
+  width: 5%;
+  font-size: 2em;
+  position: relative;
+  top: 8vh;
+  left: -40%;
+  cursor: pointer;
+}
+.left {
+  width: 5%;
+  font-size: 2em;
+  position: relative;
+  top: 8vh;
+  left: 40%;
+  cursor: pointer;
+}
+
+.carousel {
+  transform-origin: center center -225px;
+  transform-style: preserve-3d;
+  transition: all 1s;
+  
+}
+.carouselCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -75px;
+  width: 150px;
+  height: 100px;
+  transform-origin: center center;
+  box-shadow: var(--lightShadow);
+  border-radius: 25%;
+  border: 2px solid var(--primaryColor);
+  overflow: hidden;
+}
+.carouselCard:hover {
+  box-shadow: var(--darkShadow);
+}
+
+.carouselCard:hover .icon {
+  opacity: 0.8;
+  transition: all 1s;
+  transform: scale(1.5);
+}
+
+.carouselCard h4 {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 1.3em;
+  width: 100%;
+  text-align: center;
+  color: var(--primaryColor);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  text-transform: capitalize;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.carouselCard:hover h4 {
+  opacity: 1;
+}
+.primaryBtn2 {
+  position: absolute;
+  left: 0;
+  top: 55px;
+  font-size: 0.6em;
+  width: 30%;
+  margin: 0 33.5%;
+  transition: 0.5s ease-in;
+  opacity: 0;
+  z-index: 2;
+  text-decoration: none;
+  text-align: center;
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 2%;
+  border: 3px solid var(--primaryColor);
+  border-radius: 25%;
+  cursor: pointer;
+}
+.primaryBtn2:hover {
+  background: transparent;
+  color: var(--mainBlack);
+}
+.carouselCard:hover .primaryBtn2 {
+  opacity: 1;
+}
+.carouselCard .icon {
+    width:50%;
+ margin:50%;
+  transition: all 1s;
+}
+
+.carouselCard:nth-of-type(1) {
+  transform: translate3d(0, 0, 0px) rotateY(0deg);
+}
+.carouselCard:nth-of-type(2) {
+  transform: translate3d(160px, 0, -65px) rotateY(45deg);
+}
+.carouselCard:nth-of-type(3) {
+  transform: translate3d(225px, 0, -225px) rotateY(90deg);
+}
+.carouselCard:nth-of-type(4) {
+  transform: translate3d(160px, 0, -385px) rotateY(135deg);
+}
+.carouselCard:nth-of-type(5) {
+  transform: translate3d(0, 0, -450px) rotateY(180deg);
+}
+.carouselCard:nth-of-type(6) {
+  transform: translate3d(-160px, 0, -385px) rotateY(225deg);
+}
+.carouselCard:nth-of-type(7) {
+  transform: translate3d(-225px, 0, -225px) rotateY(270deg);
+}
+.carouselCard:nth-of-type(8) {
+  transform: translate3d(-160px, 0, -65px) rotateY(315deg);
+}
+
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .carouselContainer {
+    margin: 30% 0 15% 0;
+  }
+  
+}
+
+/*desktop*/
+@media screen and (min-width: 900px) {
+  .carouselContainer {
+    margin: 25% 5% 10% 5%;
+  }
+  .wrapper {
+    perspective: 900px;
+  }
+  .carousel {
+    transform-origin: center center -450px;
+  }
+  .carousel h4 {
+    top: 50px;
+    font-size: 1.8em;
+  }
+  .carouselCard {
+    margin-top: -200px;
+    margin-left: -150px;
+    width: 300px;
+    height: 200px;
+  }
+  .right {
+    font-size: 4em;
+    top: -9vh;
+    left: -15vh;
+  }
+  .left {
+    font-size: 4em;
+    top: -9vh;
+    left: 15vh;
+  }
+  .primaryBtn2 {
+    top: 110px;
+    width: 35%;
+    justify-content: center;
+    font-size: 0.9em;
+  }
+
+  .carouselCard:nth-of-type(1) {
+    transform: translate3d(0, 0, 0px) rotateY(0deg);
+  }
+  .carouselCard:nth-of-type(2) {
+    transform: translate3d(320px, 0, -130px) rotateY(45deg);
+  }
+  .carouselCard:nth-of-type(3) {
+    transform: translate3d(450px, 0, -450px) rotateY(90deg);
+  }
+  .carouselCard:nth-of-type(4) {
+    transform: translate3d(320px, 0, -770px) rotateY(135deg);
+  }
+  .carouselCard:nth-of-type(5) {
+    transform: translate3d(0, 0, -900px) rotateY(180deg);
+  }
+  .carouselCard:nth-of-type(6) {
+    transform: translate3d(-320px, 0, -770px) rotateY(225deg);
+  }
+  .carouselCard:nth-of-type(7) {
+    transform: translate3d(-450px, 0, -450px) rotateY(270deg);
+  }
+  .carouselCard:nth-of-type(8) {
+    transform: translate3d(-320px, 0, -130px) rotateY(315deg);
+  }
+}
