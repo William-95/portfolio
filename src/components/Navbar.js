@@ -31,9 +31,11 @@ export default function Navbar() {
             <Link to={`/`}>Home</Link>
           </li>
           <li>
+            <Link to="/projects/">Progetti</Link>
+          </li>
+          <li>
             <Link to="/contact/">Contatti</Link>
           </li>
-          
         </ul>
 
         </div>

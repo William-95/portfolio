@@ -60,7 +60,6 @@
 }
 .projectCard:hover{
     box-shadow: var(--darkShadow);
-    transition:0.7s ease-in-out;
 }
 .projectCard:hover h4,
 .projectCard:hover .cardLink  a{
