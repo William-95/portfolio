@@ -4,26 +4,31 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya", serif;
+
 }
 html {
   scroll-behavior: smooth;
+  /* background: #01051e; */
+background: #010317;
 }
 :root {
   --goldGradiant:-webkit-linear-gradient(45deg,#a2790d,#b48811,#daa520,#ebd197,#daa520,#b48811,#a2790d 80% );
   ;
   --primary: #daa520;
-  --secondary: #0d1762;
-  ---lightBlue:#1E4294;
-  
+  --secondary: #010317;
+  --lightBlue:#1E4294;
+  --darkBlue:#020836;
   --mainTransition: all 0.3s linear;
 
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(255, 255, 255, 0.5);
 }
 
 .text{
   background:-webkit-linear-gradient(45deg,#b48811,#daa520,#ebd197,#daa520,#b48811 55% );
   background-clip: text;
-  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
+}
+.bg{
+  background: var(--darkBlue);
 }
