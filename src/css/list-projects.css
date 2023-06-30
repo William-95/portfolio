@@ -1,0 +1,59 @@
+@import "../css/App.css";
+.listContainer {
+  border: 2px solid red;
+  display:flex;
+  flex-direction: row;
+  height:40vh;
+}
+.phone {
+  width: 30%;
+  border: 2px solid green;
+}
+.phone img {
+  width: 70%;
+  position: relative;
+}
+.phone img:first-child {
+  top: 20%;
+  left:15%;
+  z-index: 1;
+}
+.phone img:last-child {
+  width: 65%;
+  top: -39%;
+  left: 18%;
+  border-radius: 8px;
+}
+.projectDescription{
+width: 70%;
+padding:5%;
+}
+.listContainer h3{
+    color:var(--primary);
+    text-align: center;
+}
+.listContainer p{
+        color: white;
+        padding:2%;
+        margin-top:2%;
+        margin-bottom: 2%;
+}
+.linkProject{
+    margin-top:10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkProject a{
+    font-size: 1.5em;
+    color:var(--primary);
+}
+.linkProject a:hover{
+    transform: scale(1.1);
+}
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+}
+
+/*desktop*/
+@media screen and (min-width: 900px) {
+}
