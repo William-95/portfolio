@@ -1,59 +1,80 @@
 @import "../css/App.css";
+.listBox {
+  margin-top: 10%;
+}
 .listContainer {
-  border: 2px solid red;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  height:40vh;
+  height: 40vh;
+}
+.reverse {
+  flex-direction: row-reverse;
+  background: var(--darkBlue);
 }
 .phone {
-  width: 30%;
-  border: 2px solid green;
+  width: 40%;
+  padding-left: 5%;
+ 
 }
 .phone img {
   width: 70%;
   position: relative;
+  top: 15%;
+  left: 7%;
 }
-.phone img:first-child {
-  top: 20%;
-  left:15%;
-  z-index: 1;
+
+.projectDescription {
+  width: 70%;
+  padding: 5%;
 }
-.phone img:last-child {
-  width: 65%;
-  top: -39%;
-  left: 18%;
-  border-radius: 8px;
+.listContainer h3 {
+  color: var(--primary);
+  text-align: center;
 }
-.projectDescription{
-width: 70%;
-padding:5%;
+.listContainer p {
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.listContainer h3{
-    color:var(--primary);
-    text-align: center;
+.linkProject {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.listContainer p{
-        color: white;
-        padding:2%;
-        margin-top:2%;
-        margin-bottom: 2%;
+.linkProject a {
+  font-size: 1.5em;
+  color: var(--primary);
 }
-.linkProject{
-    margin-top:10%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.linkProject a{
-    font-size: 1.5em;
-    color:var(--primary);
-}
-.linkProject a:hover{
-    transform: scale(1.1);
+.linkProject a:hover {
+  transform: scale(1.1);
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
+  .phone img {
+    top: 10%;
+    left: 8%;
+  }
+  .listContainer {
+    font-size: 1.6em;
+  }
 }
 
 /*desktop*/
 @media screen and (min-width: 900px) {
+  .listContainer {
+    height: 90vh;
+  }
+  .phone img {
+    width: 50%;
+    top: 12.5%;
+    left: 20%;
+  }
+  .projectDescription {
+    font-size: 1.7em;
+    padding: 8%;
+  }
+  .projectDescription h3 {
+    font-size: 2em;
+  }
 }
