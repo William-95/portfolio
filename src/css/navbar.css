@@ -25,9 +25,10 @@
   border: none;
   cursor: pointer;
   outline: none;
+  
 }
 .navIcon {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--primary);
 }
 .navLogo {
@@ -57,7 +58,10 @@
 }
 
 .showNav {
-  height: 230px;
+  border: 2px solid gold;
+  border-top: 0;
+  border-radius: 15px;
+  height: 170px;
   background-color: var(--darkBlue);
 }
 
@@ -75,6 +79,7 @@
 
 /*desktop*/
 @media screen and (min-width: 900px) {
+
   .navBtn {
     display: none;
   }
@@ -103,5 +108,9 @@
 
   .navLogo {
     width: 30%;
+  }
+  .showNav{
+    background: transparent;
+    border: 0;
   }
 }

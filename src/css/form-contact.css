@@ -1,0 +1,118 @@
+@import "../css/App.css";
+.formContainer {
+  height: 90vh;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.formContainer form {
+  width: 100%;
+  border: 2px solid var(--primary);
+  border-radius: 15px;
+  box-shadow: var(--lightShadow);
+  height: 60vh;
+  margin: 0 auto;
+  padding: 5%;
+  backdrop-filter: blur(12px);
+}
+.userBox {
+  /* border:2px solid yellow; */
+  margin: 10%;
+}
+.userBox input,
+.userBox textarea {
+  width: 100%;
+  color: var(--primary);
+  padding: 5%;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 5vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+}
+.userBox label {
+  position: relative;
+  z-index: 1;
+  top: -35px;
+  left: 10px;
+  font-size: 1.3em;
+}
+.userBox input:hover ~ label,
+.userBox input:valid ~ label,
+.userBox textarea:hover ~label,
+  .userBox textarea:valid ~label   {
+  color: #a2790d;
+  font-size: 0.9em;
+  top: -58px;
+}
+
+.formContainer button {
+  border: 2px solid var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 2em;
+  padding: 1%;
+  margin-left: 75%;
+}
+.formContainer button:hover {
+  background: transparent;
+  color: var(--primary);
+  transition: 0.5s ease-in-out;
+}
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .userBox input,
+  .userBox textarea {
+    font-size: 1.3em;
+  }
+  .userBox label {
+    font-size: 1.8em;
+    top: -50px;
+  }
+  .userBox input:hover  ~label,
+  .userBox input:valid~label,
+  .userBox textarea:hover ~label,
+  .userBox textarea:valid ~label {
+    top: -90px;
+    font-size: 1.3em;
+  }
+  .formContainer button {
+    font-size: 2.5em;
+    margin-left: 80%;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 900px) {
+  .formContainer {
+    height: 95vh;
+  }
+  .formContainer form {
+    width: 60%;
+    height: 70vh;
+  }
+  .userBox {
+    margin: 5% auto;
+    width: 60%;
+  }
+  .userBox input,
+  .userBox textarea {
+    height: 6vh;
+  }
+
+  .userBox input:hover ~label,
+  .userBox input:valid ~label,
+  .userBox textarea:hover ~label,
+  .userBox textarea:valid ~label {
+    top: -70px;
+  }
+}

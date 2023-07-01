@@ -7,8 +7,7 @@
 
 }
 html {
-  scroll-behavior: smooth;
-  /* background: #01051e; */
+  scroll-behavior:smooth;
 background: #010317;
 }
 :root {
@@ -16,12 +15,13 @@ background: #010317;
   ;
   --primary: #daa520;
   --secondary: #010317;
-  --lightBlue:#1E4294;
   --darkBlue:#020836;
-  --mainTransition: all 0.3s linear;
 
   --lightShadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(255, 255, 255, 0.5);
+
+  --mainTransition: all 0.3s linear;
+
 }
 
 .text{

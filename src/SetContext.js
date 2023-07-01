@@ -25,7 +25,7 @@ const[skill]=useState([
    },
    {
     icon: <SiJavascript/>,
-    color:'#264de4',
+    color:'#F0DB4F',
     title:'JS',
     link:'https://it.javascript.info/'
    },

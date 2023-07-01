@@ -4,6 +4,7 @@
     margin-top: 25%;
     padding-top: 5%;
 }
+
 .project h2{
     font-size: 2em;
     text-align: center;
@@ -21,7 +22,6 @@
   margin-top: 10%;
   padding-top: 10%;
   padding-bottom: 10%;
- 
 }
 
 .projectCard {
@@ -106,3 +106,5 @@
         font-size: 1.5em;
     }
 }
+
+

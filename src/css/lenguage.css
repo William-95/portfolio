@@ -22,6 +22,7 @@
   top: 0%;
   left: 0%;
   perspective: 450px;
+
 }
 .right {
   width: 5%;
@@ -46,6 +47,7 @@
   transform-origin: center center -225px;
   transform-style: preserve-3d;
   transition: all 1s;
+
 }
 .carouselCard {
   position: absolute;
@@ -220,3 +222,5 @@
     transform: translate3d(-320px, 0, -130px) rotateY(315deg);
   }
 }
+
+
