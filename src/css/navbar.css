@@ -18,7 +18,7 @@
 }
 .navHeader {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .navBtn {
   background: transparent;

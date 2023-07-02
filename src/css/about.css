@@ -25,7 +25,7 @@
     height: 100px;
     border: 2px solid goldenrod;
     border-radius: 50%;
-    overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
     box-shadow: var(--lightShadow);
   }
   .myImg img {
