@@ -1,0 +1,81 @@
+@import "../css/App.css";
+.aboutContainer{
+    padding:4%;
+}
+
+.titleAbout{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-bottom: 3px solid var(--primary);
+    border-radius: 15%;
+  } 
+.about{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.myImg {
+    background: var(--darkBlue);
+    margin: 0 auto 10%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    overflow: -moz-hidden-unscrollable;
+    box-shadow: var(--lightShadow);
+  }
+  .myImg img {
+    width: 100%;
+  }
+  .textSection{
+    background: var(--darkBlue);
+    color:var(--primary);
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding:5%;
+    margin-bottom: 10%;
+}
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+    .myImg {
+        width: 150px;
+        height: 150px;
+      }
+      .textSection{
+        font-size: 1.6em;
+      }
+}
+
+/*desktop*/
+@media screen and (min-width: 900px) {
+  .aboutContainer{
+    padding:0;
+    height: 75vh
+  }
+    .titleAbout{
+        margin-top:5%;
+       font-size: 2.5em;
+      }
+      .about{
+        width: 90%;
+        padding:0 5% 0 0;
+        flex-direction: row;
+       
+    }
+    .myImg {
+        width: 250px;
+        height: 250px;
+    
+      }
+      .textSection{
+        width: 60%;
+        line-break: strict;
+        font-size: 1.4em;
+        margin-bottom: 0;
+      }
+}

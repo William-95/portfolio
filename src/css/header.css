@@ -16,7 +16,6 @@
   overflow: -moz-hidden-unscrollable;
   box-shadow: var(--lightShadow);
   background: var(--goldGradiant);
-  /* animation: entryImg 0.5s ease-in; */
 }
 .headerMyImg img {
   width: 100%;

@@ -18,7 +18,6 @@
   backdrop-filter: blur(12px);
 }
 .userBox {
-  /* border:2px solid yellow; */
   margin: 5% 10%;
 }
 .userBox input,
@@ -61,6 +60,10 @@
     color: #a2790d;
     font-size: 0.9em;
     top: -130px;
+  }
+  .userBox input:valid,
+  .userBox textarea:valid{
+    box-shadow: var(--lightShadow);
   }
 .formContainer button {
   border: 2px solid var(--primary);
@@ -119,7 +122,7 @@
     height: 75vh;
   }
   .userBox {
-    margin: 2% auto;
+    margin: 2.5% auto;
     width: 60%;
   }
   .userBox input{
