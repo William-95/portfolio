@@ -4,6 +4,7 @@ import { SiPhp,SiMysql, SiLaravel,SiSass,SiJavascript,SiReact} from "react-icons
 import where from "./img/phone1.png";
 import enjoy from "./img/phone2.png";
 import oasis from "./img/phone3.png";
+import ScrollReveal from 'scrollreveal';
 
 
 export const StateContext=React.createContext();
@@ -71,7 +72,7 @@ const[project]=useState([
     img: where,
     name: "WhereDoYouLive",
     summary:
-      "App creata con l'utilizzo di HTML,CSS e JavaScript.Tramite la ricerca per nome delle città viene mostrata la qualità della vita e il punteggi della citta secondo la classifica di Teleport.",
+      "App creata con l'utilizzo di HTML,CSS e JavaScript.Tramite la ricerca per nome delle città viene mostrata la qualità della vita e il punteggi della città secondo la classifica di Teleport.",
     git: "https://github.com/William-95/Where-DoYouLive.github.io",
     link: "https://where-doyoulive.netlify.app/",
   },
@@ -80,7 +81,7 @@ const[project]=useState([
     img: enjoy,
     name: "EnjoyVeg",
     summary:
-      "App creata con l'utilizzo di HTML,CSS e JavaScript e React.js. App utilizzata per la ricerca di ricette vegetariane attraverso l'applicazione di filtri in base alle proprie preferenze.",
+      "App creata con l'utilizzo di HTML,CSS, JavaScript e React.js. App utilizzata per la ricerca di ricette vegetariane attraverso l'applicazione di filtri in base alle proprie preferenze.",
     git: "https://github.com/William-95/Where-DoYouLive.github.io",
     link: "https://where-doyoulive.netlify.app/",
   },
@@ -89,12 +90,29 @@ const[project]=useState([
     img: oasis,
     name: "Oasis",
     summary:
-      "App creata con l'utilizzo di HTML,CSS e React.js e Laravel. Effettuato il login/registrazione è possibile visionare i cani abbandonati nei vari canili nazionale, l'inserimento di essi nei database o la ricerca di un singolo cane tramite microchip.",
+      "App creata con l'utilizzo di HTML,CSS, React.js e Laravel. Effettuato il login/registrazione è possibile visionare i cani abbandonati nei vari canili nazionale, l'inserimento di essi nei database o la ricerca di un singolo cane tramite microchip.",
     git: "https://github.com/William-95/Where-DoYouLive.github.io",
     link: "https://where-doyoulive.netlify.app/",
   },
 ])
 // end state project
+
+// scroll
+ScrollReveal({
+  reset:true,
+  distance:'80px',
+  duration:2000,
+  delay:200
+ });
+//  useEffect(()=>{
+//   ScrollReveal().reveal('.headerMyImg,.titleProject,.textHeader2',{origin:'top'});
+//   ScrollReveal().reveal('.projectCard,.formContainer',{origin:'bottom'})
+//   ScrollReveal().reveal('.textHeader,.titleCarousel,.listContainer',{origin:'left'})
+//   ScrollReveal().reveal('.carouselContainer,.reverse',{origin:'right'})
+
+// },[])
+//  end Scroll
+
 
   return (
    <>

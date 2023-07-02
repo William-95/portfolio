@@ -1,7 +1,7 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import "../css/navbar.css";
 import { FaAlignRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation  } from "react-router-dom";
 import classNames from "classnames";
 
 export default function Navbar() {
@@ -11,8 +11,49 @@ export default function Navbar() {
     const handleToggle = () => {
         setState({ isOpen: !state.isOpen });
       };
+
+// nav visibility
+// scolling
+useEffect(() => {
+  let prevPos = window.scrollY;
+
+  const handleScroll = () => {
+    const currentPos = window.scrollY;
+
+    if (prevPos > currentPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-90px";
+    }
+    prevPos = currentPos;
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+// end scolling
+// end nav visibility
+
+
+      // to return top
+      const ScrollToTop = () => {
+        const location = useLocation();
+      
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, [location]);
+      
+        return null;
+      };
+      // end to return top
   return (
-    <nav className='navbar'>
+    <>
+  <ScrollToTop />
+   
+    <nav className='navbar' id='navbar'>
         <div className='navCenter'>
             <div className='navHeader'>
             <h3>Portfolio</h3>
@@ -40,5 +81,6 @@ export default function Navbar() {
 
         </div>
     </nav>
+    </>
   )
 }

@@ -4,7 +4,6 @@ import { FaAngleRight, FaAngleLeft,FaExternalLinkAlt} from "react-icons/fa";
 import { StateContext } from '../SetContext';
 
 
-
 export default function Lenguage() {
   const{skill}=useContext(StateContext);
     const [deg, setDeg] = useState(0);
@@ -16,11 +15,12 @@ const handleLeft = () => {
     setDeg((deg) => deg - 45);
   };
 
-
   return (
-    <>
+   
+    <div className="lenguage">
+           
          <h2 className="text titleCarousel">Linguaggi utilizzati:</h2>
-
+        
       <div className="carouselContainer">
         <div className="left" onClick={handleLeft}>
           <FaAngleLeft />
@@ -50,6 +50,6 @@ const handleLeft = () => {
           <FaAngleRight />
         </div>
       </div>
-    </>
+      </div>
   )
 }

@@ -31,7 +31,7 @@ export default function Slide() {
   return (
     <>
     <div className="project">
-     <h2 className="text">Progetti eseguiti durante il percorso di studi:</h2>
+     <h2 className="text titleProject">Progetti eseguiti durante il percorso di studi:</h2>
 
       <div className="projectContainer">
         {state.project.map((item, index) => {

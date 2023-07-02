@@ -38,7 +38,7 @@ export default function FormContact() {
           
         </div>
 
-        <div className="userBox">
+        <div className="userBox ">
           <input
             type="email"
             name="user_email"
@@ -58,7 +58,7 @@ export default function FormContact() {
           
         </div>
 
-        <button type="submit">
+        <button type="submit" className='btn'>
          {send?<MdMarkEmailRead/>:<BiMailSend/>} 
         </button>
 

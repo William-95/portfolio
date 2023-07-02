@@ -16,7 +16,7 @@
   overflow: -moz-hidden-unscrollable;
   box-shadow: var(--lightShadow);
   background: var(--goldGradiant);
-  animation: entryImg 0.5s ease-in;
+  /* animation: entryImg 0.5s ease-in; */
 }
 .headerMyImg img {
   width: 100%;
@@ -29,18 +29,18 @@
   margin-top: 10%;
 }
 
-.textHeader h3{
-    -webkit-animation: text-fall 3s 2.5s ease-in-out both;
-    -moz-animation: text-fall 3s 2.5s ease-in-out both;
-    -ms-animation: text-fall 3s 2.5s ease-in-out both;
-    -o-animation: text-fall 3s 2.5s ease-in-out both;
-    animation: text-fall 3s 2.5s ease-in-out both;
-    
-	-webkit-transform-origin:0 50%;
-	-moz-transform-origin: 0 50%;
-	-ms-transform-origin: 0 50%;
-	-o-transform-origin: 0 50%;
-	transform-origin: 0 50%;
+.textHeader h3 {
+  -webkit-animation: text-fall 3s 2.5s ease-in-out both;
+  -moz-animation: text-fall 3s 2.5s ease-in-out both;
+  -ms-animation: text-fall 3s 2.5s ease-in-out both;
+  -o-animation: text-fall 3s 2.5s ease-in-out both;
+  animation: text-fall 3s 2.5s ease-in-out both;
+
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -57,7 +57,7 @@
 /*desktop*/
 @media screen and (min-width: 900px) {
   .headerBg {
-    height: 90vh;
+    height: 100vh;
   }
   .headerMyImg {
     width: 250px;
@@ -65,70 +65,55 @@
   }
   .textHeader {
     font-size: 2em;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 15%;
   }
 }
-/* ------ */
-@keyframes entryImg {
-  0% {
-    top: -300px;
-  }
-  100% {
-    top: 25%;
-  }
-}
+
 
 /* --------------------------------------------------------------------- */
 @keyframes text-fall {
-    0% {
-        -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%;
-        -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out; 
-    }
-    
-    15% {
-        -webkit-transform: rotate3d(0, 0, 1, 130deg);
-            transform: rotate3d(0, 0, 1, 130deg);
-        
-        }
-  
-    20% {
-        -webkit-transform: rotate3d(0, 0, 1, 80deg);
-            transform: rotate3d(0, 0, 1, 80deg);
-          
-        }
-    
-    30% {
-        -webkit-transform: rotate3d(0, 0, 1, 115deg);
-            transform: rotate3d(0, 0, 1, 115deg);
-        
-        }
-    
-    40% {
-        
-        -webkit-transform: rotate3d(0, 0, 1, 85deg);
-            transform: rotate3d(0, 0, 1, 85deg);
-        
-        }
-    
-    50% {
-        -webkit-transform: rotate3d(0, 0, 1, 107deg);
-            transform: rotate3d(0, 0, 1, 107deg);
-        
-        }
-    
-    80% {
-        
-        -webkit-transform:rotateZ(102.5deg); opacity: 1;
-            transform:rotateZ(102.5deg);
-        
-        }
-    
-    100% { 
-        -webkit-transform:rotateZ(102.5deg) translate3d(400px, 0 , 0);opacity:0;
-            transform:rotateZ(102.5deg) translate3d(400px, 0 , 0);
-       
-        }
+  0% {
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  15% {
+    -webkit-transform: rotate3d(0, 0, 1, 130deg);
+    transform: rotate3d(0, 0, 1, 130deg);
+  }
+
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+  }
+
+  30% {
+    -webkit-transform: rotate3d(0, 0, 1, 115deg);
+    transform: rotate3d(0, 0, 1, 115deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, 85deg);
+    transform: rotate3d(0, 0, 1, 85deg);
+  }
+
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 107deg);
+    transform: rotate3d(0, 0, 1, 107deg);
+  }
+
+  80% {
+    -webkit-transform: rotateZ(102.5deg);
+    opacity: 1;
+    transform: rotateZ(102.5deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(102.5deg) translate3d(400px, 0, 0);
+    opacity: 0;
+    transform: rotateZ(102.5deg) translate3d(400px, 0, 0);
+  }
 }
