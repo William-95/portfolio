@@ -9,6 +9,7 @@
   z-index: 10000;
   transition: 0.4s ease-out;
   padding: 3%;
+  display:block;
 }
 .navCenter {
   width: 100%;

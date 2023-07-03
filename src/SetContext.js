@@ -104,13 +104,7 @@ ScrollReveal({
   duration:2000,
   delay:200
  });
-//  useEffect(()=>{
-//   ScrollReveal().reveal('.headerMyImg,.titleProject,.textHeader2',{origin:'top'});
-//   ScrollReveal().reveal('.projectCard,.formContainer',{origin:'bottom'})
-//   ScrollReveal().reveal('.textHeader,.titleCarousel,.listContainer',{origin:'left'})
-//   ScrollReveal().reveal('.carouselContainer,.reverse',{origin:'right'})
 
-// },[])
 //  end Scroll
 
 

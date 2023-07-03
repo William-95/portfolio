@@ -5,9 +5,9 @@ import ScrollReveal from 'scrollreveal'
 
 export default function Projects() {
   useEffect(()=>{
-    ScrollReveal().reveal('.textHeader2',{origin:'top'});
-    ScrollReveal().reveal('.listContainer',{origin:'left'})
-    ScrollReveal().reveal('.reverse',{origin:'right'})
+    ScrollReveal().reveal('.textHeader2,.phone',{origin:'top'});
+    ScrollReveal().reveal('.projectDescription',{origin:'bottom'})
+    // ScrollReveal().reveal('.reverse',{origin:'right'})
   
   },[])
   return (
