@@ -37,7 +37,7 @@
     border: 2px solid goldenrod;
     border-radius: 15px;
     padding:5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
