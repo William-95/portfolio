@@ -7,7 +7,6 @@ export default function Projects() {
   useEffect(()=>{
     ScrollReveal().reveal('.textHeader2,.phone',{origin:'top'});
     ScrollReveal().reveal('.projectDescription',{origin:'bottom'})
-    // ScrollReveal().reveal('.reverse',{origin:'right'})
   
   },[])
   return (

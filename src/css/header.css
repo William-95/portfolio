@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding:1%;
+  margin:0;
 }
 .headerMyImg {
   position: relative;
