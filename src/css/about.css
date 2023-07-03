@@ -1,10 +1,7 @@
 @import "../css/App.css";
 .aboutContainer{
     padding:2%;
-    
-    background: var(--goldGradiant);
-margin-bottom: 5%;
-}
+    }
 
 .titleAbout{
     font-size: 2em;
