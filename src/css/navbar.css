@@ -18,20 +18,23 @@
 .navHeader {
   display: flex;
   justify-content: space-between;
+
 }
 .navBtn {
   background: transparent;
   border: none;
   cursor: pointer;
   outline: none;
-  
+
 }
 .navIcon {
   font-size: 1.8rem;
   color: var(--primary);
+
 }
 .navLogo {
   width: 30%;
+
 }
 .navLinks {
   height: 0;
@@ -50,9 +53,11 @@
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 3px;
+ 
 }
 .navLinks a:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
+  
 }
 
 .showNav {
