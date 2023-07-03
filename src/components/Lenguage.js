@@ -1,14 +1,13 @@
-import React,{useState,useContext} from 'react'
-import '../css/lenguage.css'
-import { FaAngleRight, FaAngleLeft,FaExternalLinkAlt} from "react-icons/fa";
-import { StateContext } from '../SetContext';
-
+import React, { useState, useContext } from "react";
+import "../css/lenguage.css";
+import { FaAngleRight, FaAngleLeft, FaExternalLinkAlt } from "react-icons/fa";
+import { StateContext } from "../SetContext";
 
 export default function Lenguage() {
-  const{skill}=useContext(StateContext);
-    const [deg, setDeg] = useState(0);
+  const { skill } = useContext(StateContext);
+  const [deg, setDeg] = useState(0);
 
-const handleLeft = () => {
+  const handleLeft = () => {
     setDeg((deg) => deg + 45);
   };
   const handleRight = () => {
@@ -16,30 +15,33 @@ const handleLeft = () => {
   };
 
   return (
-   
     <div className="lenguage">
-           
-         <h2 className="text titleCarousel">Linguaggi utilizzati:</h2>
-        
+      <h2 className="text titleCarousel">Linguaggi utilizzati:</h2>
+
       <div className="carouselContainer">
         <div className="left" onClick={handleLeft}>
           <FaAngleLeft />
-          
         </div>
         <div className="wrapper">
           <div
             className="carousel"
             style={{ transform: "rotateY(" + deg + "deg)" }}
           >
-            {skill.map((item,index) => {
+            {skill.map((item, index) => {
               return (
                 <article className="carouselCard" key={index}>
-                    <div className='icon' style={{color:item.color}}>{item.icon}</div>
-                  
+                  <div className="icon" style={{ color: item.color }}>
+                    {item.icon}
+                  </div>
 
                   <h4>{item.title}</h4>
 
-                  <button><a href={item.link} target='_blank' rel="noreferrer"> <FaExternalLinkAlt/></a></button>
+                  <button>
+                    <a href={item.link} target="_blank" rel="noreferrer">
+                      {" "}
+                      <FaExternalLinkAlt />
+                    </a>
+                  </button>
                 </article>
               );
             })}
@@ -50,6 +52,6 @@ const handleLeft = () => {
           <FaAngleRight />
         </div>
       </div>
-      </div>
-  )
+    </div>
+  );
 }

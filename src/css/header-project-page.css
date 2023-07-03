@@ -1,40 +1,37 @@
 @import "../css/App.css";
 .headerBg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-.textHeader2{
-    font-size: 0.8;
-    padding:10%;
-    text-align: center;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.textHeader2 h1{
-    margin:30% auto 0
+.textHeader2 {
+  font-size: 0.8;
+  padding: 10%;
+  text-align: center;
 }
-
+.textHeader2 h1 {
+  margin: 30% auto 0;
+}
 
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
-    .textHeader2{
-        font-size: 1.8em;
-    }
-    .textHeader2 h1{
-        margin:13% auto 0
-    }
+  .textHeader2 {
+    font-size: 1.8em;
+  }
+  .textHeader2 h1 {
+    margin: 13% auto 0;
+  }
 }
 
 /*desktop*/
 @media screen and (min-width: 900px) {
-    .headerBg {
-        height: 83vh;
-       
-      }
-    .textHeader2{
-        font-size: 2.5em;
-    }
-    .textHeader2 h1{
-        margin:5% auto 0
-    }
+  .headerBg {
+    height: 83vh;
+  }
+  .textHeader2 {
+    font-size: 2.5em;
+  }
+  .textHeader2 h1 {
+    margin: 5% auto 0;
+  }
 }

@@ -34,7 +34,7 @@
   left: 0;
   font-size: 1em;
 }
-.userBox textarea{
+.userBox textarea {
   height: 15vh;
   resize: none;
 }
@@ -45,26 +45,25 @@
   left: 10px;
   font-size: 1.3em;
 }
-.userBox textarea ~label{
-  top:-100px;
+.userBox textarea ~ label {
+  top: -100px;
 }
 .userBox input:hover ~ label,
-.userBox input:valid ~ label
-  {
+.userBox input:valid ~ label {
   color: #a2790d;
   font-size: 0.9em;
   top: -58px;
 }
-.userBox textarea:hover ~label,
-  .userBox textarea:valid ~label {
-    color: #a2790d;
-    font-size: 0.9em;
-    top: -130px;
-  }
-  .userBox input:valid,
-  .userBox textarea:valid{
-    box-shadow: var(--lightShadow);
-  }
+.userBox textarea:hover ~ label,
+.userBox textarea:valid ~ label {
+  color: #a2790d;
+  font-size: 0.9em;
+  top: -130px;
+}
+.userBox input:valid,
+.userBox textarea:valid {
+  box-shadow: var(--lightShadow);
+}
 .formContainer button {
   border: 2px solid var(--primary);
   background: var(--primary);
@@ -92,17 +91,16 @@
     font-size: 1.8em;
     top: -50px;
   }
-  .userBox textarea ~label{
-    top:-160px;
+  .userBox textarea ~ label {
+    top: -160px;
   }
-  .userBox input:hover  ~label,
-  .userBox input:valid~label
-  {
+  .userBox input:hover ~ label,
+  .userBox input:valid ~ label {
     top: -90px;
     font-size: 1.3em;
   }
-  .userBox textarea:hover ~label,
-  .userBox textarea:valid ~label {
+  .userBox textarea:hover ~ label,
+  .userBox textarea:valid ~ label {
     top: -200px;
     font-size: 1.3em;
   }
@@ -125,22 +123,21 @@
     margin: 2.5% auto;
     width: 60%;
   }
-  .userBox input{
+  .userBox input {
     height: 6vh;
   }
   .userBox textarea {
-height: 23vh;
+    height: 23vh;
   }
-  .userBox textarea ~label{
-    top:-160px;
+  .userBox textarea ~ label {
+    top: -160px;
   }
-  .userBox input:hover ~label,
-  .userBox input:valid ~label
-   {
+  .userBox input:hover ~ label,
+  .userBox input:valid ~ label {
     top: -70px;
   }
-  .userBox textarea:hover ~label,
-  .userBox textarea:valid ~label{
-    top:-195px;
+  .userBox textarea:hover ~ label,
+  .userBox textarea:valid ~ label {
+    top: -195px;
   }
 }

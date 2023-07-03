@@ -4,31 +4,44 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya", serif;
-
 }
 html {
-  scroll-behavior:smooth;
-background: #010317;
+  scroll-behavior: smooth;
+  background: #010317;
 }
 :root {
-  --goldGradiant:-webkit-linear-gradient(45deg,#a2790d,#b48811,#daa520,#ebd197,#daa520,#b48811,#a2790d 80% );
-  ;
+  --goldGradiant: -webkit-linear-gradient(
+    45deg,
+    #a2790d,
+    #b48811,
+    #daa520,
+    #ebd197,
+    #daa520,
+    #b48811,
+    #a2790d 80%
+  );
   --primary: #daa520;
   --secondary: #010317;
-  --darkBlue:#020836;
+  --darkBlue: #020836;
 
   --lightShadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(255, 255, 255, 0.5);
 
   --mainTransition: all 0.3s linear;
-
 }
 
-.text{
-  background:-webkit-linear-gradient(45deg,#b48811,#daa520,#ebd197,#daa520,#b48811 55% );
+.text {
+  background: -webkit-linear-gradient(
+    45deg,
+    #b48811,
+    #daa520,
+    #ebd197,
+    #daa520,
+    #b48811 55%
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.bg{
+.bg {
   background: var(--darkBlue);
 }

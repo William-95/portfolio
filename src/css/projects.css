@@ -1,22 +1,22 @@
 @import "../css/App.css";
-.project{
-    background: var(--darkBlue);
-    margin-top: 25%;
-    padding-top: 5%;
+.project {
+  background: var(--darkBlue);
+  margin-top: 25%;
+  padding-top: 5%;
 }
 
-.project h2{
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    border-bottom: 3px solid var(--primary);
-    border-radius: 15%;
+.project h2 {
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  border-bottom: 3px solid var(--primary);
+  border-radius: 15%;
 }
 .projectContainer {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 40px;
   margin-top: 10%;
@@ -39,40 +39,40 @@
   background-repeat: no-repeat;
   width: 100%;
 }
-.projectCard h4{
-    position:relative;
-    top:-170px;
-    text-align: center;
-    font-size: 2em;
-    color:var(--primary);
-    opacity: 0;
+.projectCard h4 {
+  position: relative;
+  top: -170px;
+  text-align: center;
+  font-size: 2em;
+  color: var(--primary);
+  opacity: 0;
 }
-.cardLink{
-    display:flex;
-    justify-content: space-evenly;
+.cardLink {
+  display: flex;
+  justify-content: space-evenly;
 }
-.cardLink  a{
-    font-size: 3em;
-    position:relative;
-    top:-150px;
-    color:var(--primary);
-    opacity: 0;
+.cardLink a {
+  font-size: 3em;
+  position: relative;
+  top: -150px;
+  color: var(--primary);
+  opacity: 0;
 }
-.projectCard:hover{
-    box-shadow: var(--darkShadow);
+.projectCard:hover {
+  box-shadow: var(--darkShadow);
 }
 .projectCard:hover h4,
-.projectCard:hover .cardLink  a{
-    opacity:1;
-    transition:0.7s ease-in-out;
+.projectCard:hover .cardLink a {
+  opacity: 1;
+  transition: 0.7s ease-in-out;
 }
-.projectCard:hover img{
-    opacity:0.5;
-    transition:0.7s ease-in-out;
+.projectCard:hover img {
+  opacity: 0.5;
+  transition: 0.7s ease-in-out;
 }
-.cardLink  a:hover {
-    transform: scale(1.1);
-    color:#a2790d;
+.cardLink a:hover {
+  transform: scale(1.1);
+  color: #a2790d;
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -80,31 +80,29 @@
 
 /*desktop*/
 @media screen and (min-width: 900px) {
-    .project{
-        margin-top:15%;
-    }
-    .project h2{
-        font-size: 2.5em\;
-    }
-    .projectContainer{
-        margin-top: 0;
-        padding-top: 5%;
-        grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
-        grid-column-gap: 10px;
-        padding-left: 5%;
-        padding-right:5%;
-    }
-    .projectCard{
-        height:200px;
-    }
-    .cardLink  a{
-        font-size: 2.5em;
-        top:-150px;
-    }
-    .projectCard h4{
-        top: -180px;
-        font-size: 1.5em;
-    }
+  .project {
+    margin-top: 15%;
+  }
+  .project h2 {
+    font-size: 2.5em\;;
+  }
+  .projectContainer {
+    margin-top: 0;
+    padding-top: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .projectCard {
+    height: 200px;
+  }
+  .cardLink a {
+    font-size: 2.5em;
+    top: -150px;
+  }
+  .projectCard h4 {
+    top: -180px;
+    font-size: 1.5em;
+  }
 }
-
-

@@ -30,31 +30,30 @@ export default function Slide() {
 
   return (
     <>
-    <div className="project">
-     <h2 className="text titleProject">Progetti eseguiti durante il percorso di studi:</h2>
+      <div className="project">
+        <h2 className="text titleProject">
+          Progetti eseguiti durante il percorso di studi:
+        </h2>
 
-      <div className="projectContainer">
-        {state.project.map((item, index) => {
-          return (
-            <article className="projectCard" key={index}>
-              <img src={item.img} alt="" />
-              <h4>{item.title}</h4>
-              <div className="cardLink">
-                
+        <div className="projectContainer">
+          {state.project.map((item, index) => {
+            return (
+              <article className="projectCard" key={index}>
+                <img src={item.img} alt="" />
+                <h4>{item.title}</h4>
+                <div className="cardLink">
                   <a href={item.gitHub} target="_blank" rel="noreferrer">
                     <FaGithub />
                   </a>
-              
-                
+
                   <a href={item.link} target="_blank" rel="noreferrer">
                     <FaLink />
                   </a>
-               
-              </div>
-            </article>
-          );
-        })}
-      </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
       </div>
     </>
   );

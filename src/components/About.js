@@ -38,11 +38,11 @@ export default function About() {
     observer = new IntersectionObserver(handleIntersect, {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, 
+      threshold: 0.5,
     });
 
     const sectionNode = sectionRef.current; // Copy sectionRef.current to a variable
-    observer.observe(sectionNode)
+    observer.observe(sectionNode);
 
     return () => {
       if (observer) {
