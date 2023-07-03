@@ -7,12 +7,13 @@
   width: 98%;
   height: 60px;
   padding: 3% 4%;
-  background: transparent;
+  background: red;
   z-index: 10000;
   transition: 0.4s ease-out;
+
 }
 .navCenter {
-  width: 100%;
+  width: 98%;
   height: 100%;
 }
 .navHeader {
@@ -24,7 +25,7 @@
   border: none;
   cursor: pointer;
   outline: none;
-  margin-right: 1%;
+  
 }
 .navIcon {
   font-size: 1.8rem;
@@ -70,11 +71,7 @@
   .navLogo {
     width: 40%;
   }
-  .primaryBtn {
-    width: 30%;
-    font-size: 0.8em;
-    margin: 4% 8%;
-  }
+  
 }
 
 /*desktop*/
