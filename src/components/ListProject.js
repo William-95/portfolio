@@ -14,7 +14,6 @@ export default function ListProject() {
         return (
           <>
           <div className={classNames("listContainer", { reverse:item.id%2===1 })} key={item.id}>
-           
               <div className="phone">
                 <img src={item.img} alt="" />
               </div>
@@ -31,6 +30,7 @@ export default function ListProject() {
                   </a>
                 </div>
               </article>
+           
             </div>
           </>
         );
