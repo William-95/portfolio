@@ -3,11 +3,10 @@
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 1%;
+  width: 98%;
   height: 60px;
   padding: 3% 4%;
-  /* padding: 0.75rem 2rem; */
   background: transparent;
   z-index: 10000;
   transition: 0.4s ease-out;
