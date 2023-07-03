@@ -18,8 +18,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: var(--goldGradiant);
-
 }
 
 .wrapper {
@@ -53,7 +51,9 @@
   transform-origin: center center -225px;
   transform-style: preserve-3d;
   transition: all 1s;
-
+  border:2px solid red;
+width: 90%;
+margin-left: 0 auto;
 }
 .carouselCard {
   position: absolute;
