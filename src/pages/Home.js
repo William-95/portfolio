@@ -8,7 +8,7 @@ import ScrollReveal from 'scrollreveal';
 export default function Home() {
   useEffect(()=>{
     ScrollReveal().reveal('.headerMyImg,.titleProject,.titleAbout,.titleCarousel',{origin:'top'});
-    ScrollReveal().reveal('.textSection,.carouselContainer,.projectCard,.formContainer,.myImg,.textHeader,',{origin:'bottom'})
+    ScrollReveal().reveal('.textSection,.carouselContainer,.projectCard,.formContainer,.myImg,.textHeader',{origin:'bottom'})
     
   
   },[])
