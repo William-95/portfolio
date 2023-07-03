@@ -48,8 +48,8 @@
   transform-style: preserve-3d;
   transition: all 1s;
 
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: auto;
 }
 .carouselCard {
   position: absolute;
