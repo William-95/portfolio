@@ -9,7 +9,7 @@ export default function About() {
   const startTyping = () => {
     const options = {
       strings: [
-        "Il mio primo colpo di fulmine fu all'età di 12 anni con la prima frequentazione di un corso HTML, un interesse che è cresciuto esponenzialmente nel corso del tempo.<br> Con il passare degli anni e la voglia di ricerca di un'indipendenza economica ho accantonato questo mondo pur mantenendo viva la passione.<br> Ad oggi, con più maturità e consapevolezza, so che ho le capacità e la motivazione per far diventare la mia passione il mio lavoro.<br> Ho 27 anni, intuitivo, perfezionista ed estroverso.",
+        "Il mio primo colpo di fulmine fu all'età di 12 anni con la prima frequentazione di un corso HTML, un interesse che è cresciuto esponenzialmente nel corso del tempo.<br> Con il passare degli anni e la voglia di ricerca di un'indipendenza economica ho accantonato questo mondo pur mantenendo viva la passione.<br> Ad oggi, con più maturità e consapevolezza, ho le capacità e la motivazione per far diventare la mia passione il mio lavoro.<br> Ho 27 anni, intuitivo, perfezionista ed estroverso.",
       ],
       typeSpeed: 30,
 
