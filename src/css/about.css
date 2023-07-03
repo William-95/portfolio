@@ -1,6 +1,8 @@
 @import "../css/App.css";
 .aboutContainer{
     padding:4%;
+    padding-bottom: 0;
+  
 }
 
 .titleAbout{
@@ -37,7 +39,7 @@
     border: 2px solid goldenrod;
     border-radius: 15px;
     padding:5%;
-    margin-bottom: 5%;
+    margin-bottom: 0;
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
