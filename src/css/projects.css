@@ -27,7 +27,7 @@
 .projectCard {
   margin: 0 auto;
   width: 70%;
-  height: 210px;
+  height: 200px;
   overflow: hidden;
   border: 2px solid var(--primary);
   border-radius: 15px;
