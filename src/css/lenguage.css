@@ -49,7 +49,7 @@
   transition: all 1s;
 
   width: 90%;
-  margin-left: 0 auto;
+  margin: 0 auto;
 }
 .carouselCard {
   position: absolute;
