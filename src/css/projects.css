@@ -76,6 +76,9 @@
 }
 /* tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
+.projectCard{
+  height: 190px;
+}
 }
 
 /*desktop*/
