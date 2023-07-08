@@ -3,7 +3,7 @@ import "../css/navbar.css";
 import { FaAlignRight } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import classNames from "classnames";
-
+import logo from '../img/mylogo.png'
 export default function Navbar() {
   const [state, setState] = useState({ isOpen: false });
 
@@ -54,7 +54,9 @@ export default function Navbar() {
       <nav className="navbar" id="navbar">
         <div className="navCenter">
           <div className="navHeader">
-            <h3>Portfolio</h3>
+          <Link to="/">
+            <img className="navLogo" src={logo} alt="" />
+          </Link>
 
             <button type="button" className="navBtn" onClick={handleToggle}>
               <FaAlignRight className="navIcon" />
