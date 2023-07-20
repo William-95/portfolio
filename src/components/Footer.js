@@ -33,7 +33,7 @@ export default function Footer() {
         <li>
           {" "}
           <a
-            href="https://www.linkedin.com/in/william-verga-170723231/"
+            href="https://www.linkedin.com/in/verga-william"
             target="_blank"
             rel="noreferrer"
           >
