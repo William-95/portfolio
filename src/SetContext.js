@@ -10,6 +10,7 @@ import {
 } from "react-icons/si";
 import where from "./img/phone1.png";
 import enjoy from "./img/phone2.png";
+import owly from "./img/phone4.png";
 import oasis from "./img/phone3.png";
 import ScrollReveal from "scrollreveal";
 
@@ -91,6 +92,15 @@ export default function SetContext({ children }) {
     },
     {
       id: 2,
+      img: owly,
+      name: "Owly-Db",
+      summary:
+        "Api creata con l'utilizzo di PHP, MySql e Laravel. Api RESTful per corsi e materie congiunti fra loro.",
+      git: "https://github.com/William-95/owly-db",
+      link: "https://github.com/William-95/owly-db",
+    },
+    {
+      id: 3,
       img: oasis,
       name: "Oasis",
       summary:
