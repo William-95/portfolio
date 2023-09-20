@@ -64,8 +64,11 @@
   border: 1px solid var(--primary);
   overflow: hidden;
   background: var(--darkBlue);
+  box-shadow: var(--lightShadow);
 }
-
+.carouselCard:hover{
+  box-shadow: var(--darkShadow);
+}
 .carouselCard:hover .icon {
   opacity: 0.1;
   transition: all 2s;
@@ -83,7 +86,7 @@
   z-index: 1;
   opacity: 0;
   transition: 0.5s ease-in;
-  text-shadow: -1px 0 #ebd197, 0 1px #ebd197, 1px 0 #ebd197, 0 -1px #ebd197;
+  text-shadow:  0 1px #ebd197;
 }
 .carouselCard:hover h4 {
   opacity: 1;
