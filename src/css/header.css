@@ -28,8 +28,8 @@
 .textHeader {
   color: var(--primary);
   width: 60%;
-  margin-left: 5%;
-  margin-top: 15%;
+  margin-left: 12%;
+  margin-top:0;
 }
 
 .textHeader h3 {
@@ -53,7 +53,8 @@
   }
   .textHeader {
     font-size: 1.6em;
-    margin-left: 10%;
+    margin-left: 15%;
+
   }
 }
 
@@ -68,8 +69,8 @@
   }
   .textHeader {
     font-size: 2em;
-    margin-top: 0%;
-    margin-left: 15%;
+    margin-top: -7%;
+    margin-left: 17%;
   }
 }
 
@@ -106,16 +107,12 @@
     -webkit-transform: rotate3d(0, 0, 1, 107deg);
     transform: rotate3d(0, 0, 1, 107deg);
   }
-
   80% {
-    -webkit-transform: rotateZ(102.5deg);
-    opacity: 1;
-    transform: rotateZ(102.5deg);
+    -webkit-transform: rotate3d(0, 0, 1, 130deg);
+    transform: rotate3d(0, 0, 1, 130deg);
   }
-
   100% {
-    -webkit-transform: rotateZ(102.5deg) translate3d(400px, 0, 0);
-    opacity: 0;
-    transform: rotateZ(102.5deg) translate3d(400px, 0, 0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
   }
 }

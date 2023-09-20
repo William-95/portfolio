@@ -18,7 +18,7 @@ export default function Header() {
       <div className="textHeader">
         <h1 className="text">Ciao,</h1>
         <h2 className="text">Sono William Verga</h2>
-        <h3 className="text">e sono un Web Developer.</h3>
+        <h3 className="text">e sono un Web Developer</h3>
       </div>
     </header>
   );
