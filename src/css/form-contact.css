@@ -46,7 +46,7 @@
   font-size: 1.3em;
 }
 .userBox textarea ~ label {
-  top: -115px;
+  top: -120px;
 }
 .userBox input:hover ~ label,
 .userBox input:valid ~ label {
@@ -58,7 +58,7 @@
 .userBox textarea:valid ~ label {
   color: #a2790d;
   font-size: 0.9em;
-  top: -136px;
+  top: -140px;
 }
 .userBox input:valid,
 .userBox textarea:valid {
