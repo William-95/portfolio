@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import FormContact from "../components/FormContact";
-import headerBg from "../img/header3.jpg";
+import headerBg from "../img/bg14.jpg";
 import ScrollReveal from "scrollreveal";
 
 export default function Contact() {
@@ -13,6 +13,8 @@ export default function Contact() {
     <div
       style={{
         backgroundImage: `url(${headerBg})`,
+        backgroundSize:` cover`,
+        backgroundRepeat:` no-repeat`,
       }}
     >
       <FormContact />

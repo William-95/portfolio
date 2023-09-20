@@ -1,12 +1,13 @@
 import React from "react";
 import "../css/header-project-page.css";
-import headerBg from "../img/header2.jpg";
+import headerBg from "../img/bg15.jpg";
 export default function HeaderProjectPage() {
   return (
     <header
       className="headerBg"
       style={{
         backgroundImage: `url(${headerBg})`,
+        
       }}
     >
       <div className="textHeader2">

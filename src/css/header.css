@@ -18,7 +18,8 @@
   border-radius: 50%;
   overflow: hidden;
   box-shadow: var(--lightShadow);
-  background: var(--goldGradiant);
+  /* background: var(--goldGradiant); */
+  background: transparent;
 }
 .headerMyImg img {
   width: 100%;

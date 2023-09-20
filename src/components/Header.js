@@ -2,7 +2,7 @@ import React from "react";
 import "../css/header.css";
 import "../css/App.css";
 import myImg from "../img/foto1.png";
-import headerBg from "../img/header1.jpg";
+import headerBg from "../img/bg16.jpg";
 export default function Header() {
   return (
     <header

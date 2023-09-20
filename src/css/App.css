@@ -7,7 +7,9 @@
 }
 html {
   scroll-behavior: smooth;
-  background: #010317;
+  /* background: #010317; */
+  background:#f1f2f7 ;
+/* background:  #f5f6f8; */
 }
 :root {
   --goldGradiant: -webkit-linear-gradient(
@@ -21,11 +23,16 @@ html {
     #a2790d 80%
   );
   --primary: #daa520;
+  /* --secondary: #010317; */
+  /* --darkBlue: #020836; */
   --secondary: #010317;
-  --darkBlue: #020836;
+  --darkBlue:#e7e7e7;
+  /* --darkBlue: #EEF6F9; */
 
-  --lightShadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(255, 255, 255, 0.5);
+  /* --lightShadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(255, 255, 255, 0.5); */
+  --lightShadow: 2px 5px 3px 0px rgba(81, 70, 70, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(12, 11, 11, 0.5);
 
   --mainTransition: all 0.3s linear;
 }
