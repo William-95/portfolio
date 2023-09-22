@@ -9,7 +9,7 @@ export default function About() {
   const startTyping = () => {
     const options = {
       strings: [
-        "Il mio primo colpo di fulmine fu all'età di 12 anni con la prima frequentazione di un corso HTML, un interesse che è cresciuto esponenzialmente nel corso del tempo.<br> Con il passare degli anni e la voglia di ricerca di un'indipendenza economica ho accantonato questo mondo pur mantenendo viva la passione.<br> Ad oggi, con più maturità e consapevolezza, ho le capacità e la motivazione per far diventare la mia passione il mio lavoro.<br> Ho 28 anni, intuitivo, perfezionista ed estroverso.",
+        "Sono di Roma e ho 28 anni, nel tempo libero mi piace praticare la pesca sportiva per essere a contatto con la natura e con il mare. Ho da sempre avuto un forte interesse per il mondo del web, ma ho dovuto metterlo da parte a causa di varie circostanze. Dopo dieci anni mi sono licenziato e ho deciso di cambiare, riprendere il controllo della mia vita e trasformare la mia passione per lo sviluppo web in lavoro. Pur avendo concluso un percorso completo da Full-Stack, la mia preferenza verte sul mondo del Front-End, mi permette di esprimere la mia creatività attraverso design e interfacce utente, mi piace affrontare sfide tecniche attraverso la risoluzione di problemi perché mi sento motivato a trovare sempre diverse soluzioni innovative che mi permettono di acquisire nuove abilità. Il Front-End è un campo in continua evoluzione che mi permette di apprendere e migliorare costantemente, così da soddisfare la curiosità che da sempre mi contraddistingue.",
       ],
       typeSpeed: 30,
 
