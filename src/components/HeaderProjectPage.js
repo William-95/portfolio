@@ -12,7 +12,7 @@ export default function HeaderProjectPage() {
     >
       <div className="textHeader2">
         <h1 className="text">Benvenuto,</h1>
-        <h2 className="text">Questa sezione è dedicata ai progetti.</h2>
+        <h2 className="text">Questa sezione è dedicata ai progetti</h2>
       </div>
     </header>
   );
